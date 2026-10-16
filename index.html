@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Patrik Patal, Full-Stack Developer specializing in Laravel, Vue.js, web applications, and workflow automation.">
+  <title>Patrik Patal — Full-Stack Developer</title>
+  <style>
+    :root{--bg:#0b0d12;--panel:#121620;--panel2:#171c28;--text:#f4f6fb;--muted:#a4adbd;--line:#282f3d;--accent:#b8f36b;--accent2:#91c9ff;--max:1120px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 80% 0%,#1b2631 0,transparent 36%),var(--bg);color:var(--text);font:16px/1.65 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    a{color:inherit;text-decoration:none}.wrap{width:min(var(--max),calc(100% - 44px));margin:auto}.nav{height:78px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #ffffff12}.brand{font-weight:800;letter-spacing:-.04em}.brand span{color:var(--accent)}.navlinks{display:flex;gap:25px;color:var(--muted);font-size:14px}.navlinks a:hover,.textlink:hover{color:var(--accent)}.hero{padding:100px 0 82px;display:grid;grid-template-columns:1.4fr .6fr;gap:65px;align-items:center}.eyebrow{color:var(--accent);text-transform:uppercase;font-size:12px;font-weight:800;letter-spacing:.17em}.hero h1{font-size:clamp(46px,7vw,78px);line-height:1.03;letter-spacing:-.065em;margin:19px 0 24px;max-width:760px}.hero h1 em{font-style:normal;color:var(--accent)}.lead{font-size:18px;color:var(--muted);max-width:650px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 18px;border-radius:9px;font-size:14px;font-weight:750;border:1px solid var(--line);transition:.2s}.btn.primary{background:var(--accent);color:#11170a;border-color:var(--accent)}.btn:hover{transform:translateY(-2px)}.hero-card{padding:25px;border:1px solid var(--line);border-radius:18px;background:linear-gradient(150deg,#1a2230,#10131a);box-shadow:0 25px 70px #0003}.status{display:inline-flex;gap:9px;align-items:center;color:var(--muted);font-size:12px}.dot{height:8px;width:8px;background:var(--accent);border-radius:50%;box-shadow:0 0 0 5px #b8f36b18}.monogram{font-size:72px;letter-spacing:-.09em;font-weight:850;margin:20px 0 4px}.hero-card p{margin:0;color:var(--muted);font-size:14px}.quickfacts{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:24px}.fact{padding-top:14px;border-top:1px solid var(--line)}.fact strong{display:block;font-size:20px}.fact small{color:var(--muted)}section{padding:75px 0;border-top:1px solid #ffffff10}.section-head{display:flex;justify-content:space-between;gap:25px;align-items:end;margin-bottom:30px}.section-head h2{font-size:clamp(30px,4vw,43px);letter-spacing:-.05em;line-height:1.1;margin:8px 0}.section-head p{max-width:470px;color:var(--muted);margin:0}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:35px}.about-grid p{color:var(--muted);margin-top:0}.highlight{padding:25px;border:1px solid var(--line);background:var(--panel);border-radius:14px}.highlight strong{display:block;margin-bottom:7px}.highlight span{color:var(--muted);font-size:14px}.project-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.project{border:1px solid var(--line);background:linear-gradient(145deg,var(--panel),#0e1118);border-radius:16px;padding:23px;min-height:230px;display:flex;flex-direction:column;transition:border-color .2s,transform .2s}.project:hover{border-color:#b8f36b80;transform:translateY(-3px)}.project-top{display:flex;justify-content:space-between;gap:12px;align-items:center}.project-type{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:var(--accent);font-weight:800}.project-index{font-size:12px;color:#687386}.project h3{font-size:23px;letter-spacing:-.035em;margin:19px 0 8px}.project p{color:var(--muted);font-size:14px;margin:0 0 20px}.tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:auto}.tag{border:1px solid #343c4c;background:#ffffff04;border-radius:6px;padding:4px 8px;font-size:11px;color:#cbd3df}.project small{color:#8490a2;font-size:12px;margin-top:14px}.skills{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}.skill{padding:20px;border:1px solid var(--line);border-radius:13px;background:var(--panel)}.skill h3{font-size:14px;margin:0 0 12px}.skill p{color:var(--muted);font-size:13px;margin:0}.timeline{display:grid;gap:0}.job{display:grid;grid-template-columns:190px 1fr;gap:25px;padding:22px 0;border-bottom:1px solid var(--line)}.job time{font-size:13px;color:var(--accent)}.job h3{margin:0;font-size:18px}.job p{margin:5px 0 0;color:var(--muted);font-size:14px}.contact{display:flex;align-items:center;justify-content:space-between;gap:30px;padding:34px;border:1px solid #b8f36b45;background:linear-gradient(120deg,#b8f36b12,#151a23);border-radius:18px}.contact h2{font-size:clamp(28px,4vw,42px);letter-spacing:-.05em;line-height:1.1;margin:0 0 10px}.contact p{margin:0;color:var(--muted)}footer{padding:28px 0;color:#7f8999;font-size:12px;display:flex;justify-content:space-between;gap:15px}.muted{color:var(--muted)}.notice{font-size:12px;color:#818b9b;margin-top:18px}
+    @media(max-width:800px){.hero{grid-template-columns:1fr;gap:32px;padding:70px 0}.hero-card{max-width:440px}.skills{grid-template-columns:repeat(2,1fr)}.section-head{display:block}.section-head p{margin-top:14px}.navlinks{gap:12px}.navlinks a:nth-child(2){display:none}}
+    @media(max-width:560px){.wrap{width:min(var(--max),calc(100% - 30px))}.nav{height:66px}.navlinks{font-size:12px;gap:10px}.hero h1{font-size:49px}.lead{font-size:16px}.project-grid,.about-grid{grid-template-columns:1fr}.project{min-height:0}.job{grid-template-columns:1fr;gap:6px}.skills{grid-template-columns:1fr 1fr}.contact{display:block;padding:25px}.contact .btn{margin-top:20px}footer{display:block}footer span{display:block;margin-top:5px}}
+  </style>
+</head>
+<body>
+  <header class="wrap nav">
+    <a class="brand" href="#home">patrik<span>.</span>dev</a>
+    <nav class="navlinks" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section class="wrap hero" id="home" style="border-top:0">
+      <div>
+        <div class="eyebrow">Full-Stack Developer · Philippines</div>
+        <h1>I build useful<br>digital products<span>.</span><br><em>End to end.</em></h1>
+        <p class="lead">I'm Patrik Patal, a full-stack developer with 5+ years of experience building and maintaining web applications. I work across backend logic, responsive interfaces, integrations, and automation—with a focus on practical, maintainable solutions.</p>
+        <div class="actions">
+          <a class="btn primary" href="#projects">Explore my work ↘</a>
+          <a class="btn" href="#contact">Get in touch</a>
+          <a class="btn" href="https://www.linkedin.com/in/patrik-patal-507a6a18b/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+      <aside class="hero-card">
+        <div class="status"><span class="dot"></span> FULL-STACK DEVELOPMENT</div>
+        <div class="monogram">PP<span style="color:var(--accent)">.</span></div>
+        <p>From first commit to ongoing maintenance.</p>
+        <div class="quickfacts">
+          <div class="fact"><strong>5+ yrs</strong><small>Professional experience</small></div>
+          <div class="fact"><strong>Laravel</strong><small>Backend focus</small></div>
+          <div class="fact"><strong>Vue.js</strong><small>Frontend focus</small></div>
+          <div class="fact"><strong>Automation</strong><small>Process improvement</small></div>
+        </div>
+      </aside>
+    </section>
+
+    <section id="about">
+      <div class="wrap">
+        <div class="section-head"><div><div class="eyebrow">01 / About</div><h2>Code that solves<br>real problems.</h2></div><p>I enjoy turning requirements into reliable applications—whether that means building a product from scratch, refining an existing workflow, or keeping a production system running smoothly.</p></div>
+        <div class="about-grid">
+          <div>
+            <p>My core experience is in Laravel and Vue.js, collaborating with designers and teammates to deliver web experiences that are functional, responsive, and maintainable. I’m comfortable moving between frontend implementation, backend development, database work, API integrations, debugging, and ongoing support.</p>
+            <p>I also have experience with automation-oriented work and using AI coding tools as part of a development workflow, while reviewing changes and validating results before release.</p>
+          </div>
+          <div class="highlight"><strong>How I work</strong><span>Understand the requirement → build a clear solution → test the behavior → review edge cases → deploy and maintain.</span><div style="height:16px"></div><strong>What I value</strong><span>Readable code, thoughtful UX, dependable delivery, and communication that keeps a team aligned.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="wrap">
+        <div class="section-head"><div><div class="eyebrow">02 / Selected work</div><h2>Projects & products</h2></div><p>A selection based on the project names listed on my LinkedIn profile, plus work I’ve described in more detail. Some client projects have limited public information, so descriptions are intentionally high-level.</p></div>
+        <div class="project-grid">
+          <article class="project"><div class="project-top"><span class="project-type">Learning platform</span><span class="project-index">01</span></div><h3>Kredo Learning</h3><p>Built a learning platform from scratch for the company and continued maintaining it. Work included developing application functionality and supporting the platform as it evolved.</p><div class="tags"><span class="tag">Laravel</span><span class="tag">Vue.js</span><span class="tag">Web application</span><span class="tag">Maintenance</span></div><small>Project link: <a class="textlink" href="https://kredo-learning.com/login" target="_blank" rel="noreferrer">kredo-learning.com ↗</a></small></article>
+          <article class="project"><div class="project-top"><span class="project-type">Website / education</span><span class="project-index">02</span></div><h3>Kredo.jp</h3><p>A web project listed on my LinkedIn portfolio. Included here as part of my work connected to Kredo’s online presence and digital learning services.</p><div class="tags"><span class="tag">Web development</span><span class="tag">Frontend</span><span class="tag">Collaboration</span></div><small>Project details can be expanded with verified features and screenshots.</small></article>
+          <article class="project"><div class="project-top"><span class="project-type">Education</span><span class="project-index">03</span></div><h3>HLCA</h3><p>An education-related project listed on my LinkedIn profile. Presented as part of my experience delivering and supporting web-based products.</p><div class="tags"><span class="tag">Web development</span><span class="tag">UI implementation</span></div><small>Public feature details not yet confirmed.</small></article>
+          <article class="project"><div class="project-top"><span class="project-type">Web platform</span><span class="project-index">04</span></div><h3>Tachines</h3><p>A project from my earlier professional experience, included in the portfolio of web products I have contributed to.</p><div class="tags"><span class="tag">Web development</span><span class="tag">Project delivery</span></div><small>LinkedIn lists this project as Jan 2021 – Apr 2022.</small></article>
+          <article class="project"><div class="project-top"><span class="project-type">Web platform</span><span class="project-index">05</span></div><h3>Lastbilbasen.dk</h3><p>A web project listed on my LinkedIn profile from my earlier work experience. Add specific functionality and screenshots here when approved for public display.</p><div class="tags"><span class="tag">Web development</span><span class="tag">Maintenance</span></div><small>LinkedIn lists this project as Jan 2021 – Mar 2022.</small></article>
+          <article class="project"><div class="project-top"><span class="project-type">Web project</span><span class="project-index">06</span></div><h3>REMS SG</h3><p>Included from my LinkedIn project history to give a fuller picture of my experience across different web projects and business contexts.</p><div class="tags"><span class="tag">Web development</span><span class="tag">Implementation</span></div><small>LinkedIn lists this project as Jul 2019 – Feb 2020.</small></article>
+          <article class="project"><div class="project-top"><span class="project-type">Web project</span><span class="project-index">07</span></div><h3>Cotople</h3><p>An earlier project from my LinkedIn portfolio. This entry is kept concise until the exact features and my individual contributions are confirmed.</p><div class="tags"><span class="tag">Web development</span><span class="tag">Team collaboration</span></div><small>LinkedIn lists this project as Jan 2019 – Jun 2019.</small></article>
+          <article class="project"><div class="project-top"><span class="project-type">Web project</span><span class="project-index">08</span></div><h3>EPD Land</h3><p>An earlier web project listed on my LinkedIn profile, representing additional hands-on experience building and supporting web solutions.</p><div class="tags"><span class="tag">Web development</span><span class="tag">Implementation</span></div><small>LinkedIn lists this project as Jan 2019 – Mar 2019.</small></article>
+          <article class="project"><div class="project-top"><span class="project-type">Internal dashboard</span><span class="project-index">09</span></div><h3>CRM Data Dashboard</h3><p>A dashboard concept built with AI-assisted coding, organizing data sourced from Zoho CRM into a clearer, item-based view for easier review and navigation.</p><div class="tags"><span class="tag">Zoho CRM</span><span class="tag">Dashboard UI</span><span class="tag">Claude Code</span></div><small>Include only if this is approved for your public portfolio.</small></article>
+          <article class="project"><div class="project-top"><span class="project-type">Automation</span><span class="project-index">10</span></div><h3>Workflow & Web Automation</h3><p>Automation-oriented development experience, including web scraping in a previous role and exploring ways to reduce repetitive work through integrations and scripts.</p><div class="tags"><span class="tag">Web scraping</span><span class="tag">Automation</span><span class="tag">Integrations</span></div><small>Specific client names and implementation details can be added where shareable.</small></article>
+        </div>
+        <p class="notice">Portfolio accuracy note: projects and date ranges above are based on the LinkedIn profile details available during drafting. For projects where public feature details were unavailable, the copy avoids claiming specific functionality or ownership beyond what has been shared.</p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="wrap">
+        <div class="section-head"><div><div class="eyebrow">03 / Toolkit</div><h2>Tools I work with</h2></div><p>My strongest focus is full-stack web development, with an emphasis on maintainable backend systems and polished frontend experiences.</p></div>
+        <div class="skills">
+          <div class="skill"><h3>Backend</h3><p>PHP · Laravel · REST APIs · Application logic</p></div>
+          <div class="skill"><h3>Frontend</h3><p>JavaScript · Vue.js · Vue 3 · HTML · CSS · Tailwind CSS</p></div>
+          <div class="skill"><h3>Data</h3><p>MySQL · SQL · Database design · Data handling</p></div>
+          <div class="skill"><h3>Workflow</h3><p>Git · Debugging · Testing · API integrations · AI coding tools</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="wrap">
+        <div class="section-head"><div><div class="eyebrow">04 / Experience</div><h2>Professional background</h2></div><p>Experience summarized from the profile and career details provided. Add exact titles and dates from your current LinkedIn profile before publishing if you want a complete employment timeline.</p></div>
+        <div class="timeline">
+          <div class="job"><time>Current / recent</time><div><h3>Kredo Japan</h3><p>Full-stack and frontend development work connected to Kredo’s digital products. Collaborated with UI/UX design and translated designs into working Vue.js interfaces. Built and maintained the Kredo Learning platform.</p></div></div>
+          <div class="job"><time>Earlier experience</time><div><h3>Web Development & Automation</h3><p>Contributed to web projects across different business contexts and gained experience with web scraping and automation-oriented tasks. Refer to LinkedIn for the authoritative employment timeline.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap">
+        <div class="contact"><div><div class="eyebrow">05 / Contact</div><h2>Have a project in mind?</h2><p>Let’s talk about web development, application improvements, or automation.</p></div><div class="actions" style="margin:0"><a class="btn primary" href="https://www.linkedin.com/in/patrik-patal-507a6a18b/" target="_blank" rel="noreferrer">Connect on LinkedIn ↗</a><a class="btn" href="#home">Back to top ↑</a></div></div>
+      </div>
+    </section>
+  </main>
+  <footer class="wrap"><span>© <span id="year"></span> Patrik Patal</span><span>Full-Stack Developer · Laravel · Vue.js · Automation</span></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
